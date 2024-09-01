@@ -10,8 +10,8 @@ public class Main {
 
         int N = sc.nextInt();
 
-        for (int i = 1; i <= N; i++) {
-            bw.write("*".repeat(i));
+        for (int i = 0; i < N; i++) {
+            bw.write("*".repeat(i + 1));
             bw.newLine();
         }
 
